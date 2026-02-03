@@ -3,11 +3,17 @@ h1 {
 }
 
 h2 {
-    color:chartreuse;
+    color:rgb(224, 17, 69);
 }
 
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:antiquewhite;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
 }
