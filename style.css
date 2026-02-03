@@ -1,0 +1,13 @@
+h1 {
+    color:black;
+}
+
+h2 {
+    color:chartreuse;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:antiquewhite;
+}
