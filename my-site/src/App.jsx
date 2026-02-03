@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./index.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+        <header className="header">
+            <h1>My Home Page</h1>
+            <p>HTMLからやり直してる</p>
+        </header>
+        
+        <main className="container cards">
+         <section className="card">
+            <h2>反省していること</h2>
+            <p>Reactの学習を始めてから、JSXとHTMLが混同してバグが起こりまくった</p>
+         </section>
+
+         <section className="card">
+            <h2>今後改善したいこと</h2>
+            <p>JSXとHTMLの違いをしっかり理解し、混同しないようにする</p>
+         </section>
+
+         <section className="card">
+            <h3>今後の目標</h3>
+            <ul>
+                <li>JSXを使った動的コンポーネントの作成</li>
+                <li>AIに頼らないコード制作</li>
+            </ul>
+         </section>
+        </main>
+
+        <footer className="footer">
+            <p>進捗状況をここに書く予定</p>
+        </footer>
+        </>
+  );
 }
 
-export default App
+export default App;
